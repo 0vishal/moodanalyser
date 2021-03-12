@@ -6,7 +6,7 @@ public class MoodAnalyseTest {
     @Test
     public void ReturnSad() {
         String message="I am sad";
-        MoodAnalyse mood = new MoodAnalyse(message);
+        MoodAnalyse mood = new MoodAnalyse();
         String message1= mood.analyseMood();
         Assertions.assertEquals("Sad",message1);
     }
